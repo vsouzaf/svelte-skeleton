@@ -1,3 +1,40 @@
 @import 'tailwindcss';
-@plugin '@tailwindcss/forms';
-@plugin '@tailwindcss/typography';
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+
+@theme {
+    --color-blueGray-50: #f8fafc;
+    --color-blueGray-100: #f1f5f9;
+    --color-blueGray-200: #e2e8f0;
+    --color-blueGray-300: #cbd5e1;
+    --color-blueGray-400: #94a3b8;
+    --color-blueGray-500: #64748b;
+    --color-blueGray-600: #475569;
+    --color-blueGray-700: #334155;
+    --color-blueGray-800: #1e293b;
+    --color-blueGray-900: #0f172a;
+    
+    --color-lightBlue-50: #f0f9ff;
+    --color-lightBlue-100: #e0f2fe;
+    --color-lightBlue-200: #bae6fd;
+    --color-lightBlue-300: #93c5fd;
+    --color-lightBlue-400: #60a5fa;
+    --color-lightBlue-500: #3b82f6;
+    --color-lightBlue-600: #2563eb;
+    --color-lightBlue-700: #1d4ed8;
+    --color-lightBlue-800: #1e40af;
+    --color-lightBlue-900: #1e3a8a;
+
+    --inset--94px: 94px;
+}
+
+@layer components {
+    .container {
+      width: 100%;
+      @screen sm { max-width: 640px; }
+      @screen md { max-width: 768px; }
+      @screen lg { max-width: 1024px; }
+      @screen xl { max-width: 1280px; }
+      @screen 2xl { max-width: 1280px; }
+    }
+  }

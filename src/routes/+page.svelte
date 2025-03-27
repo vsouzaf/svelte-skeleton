@@ -21,7 +21,7 @@
     <div class="container mx-auto items-center flex flex-wrap">
       <div class="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
         <div class="pt-32 sm:pt-0">
-          <h2 class="font-semibold text-4xl text-blueGray-600">
+          <h2 class="font-semibold text-4xl text-bermuda">
             Notus Svelte - A beautiful extension for Tailwind CSS.
           </h2>
           <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
@@ -89,7 +89,7 @@
           class="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32"
         >
           <div
-            class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-red-400"
+            class="relative flex flex-col min-w-0 break-word w-full mb-6 shadow-lg rounded-lg bg-red-400"
           >
             <img
               alt="..."
@@ -101,7 +101,7 @@
                 preserveAspectRatio="none"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 583 95"
-                class="absolute left-0 w-full block h-95-px -top-94-px"
+                class="absolute left-0 w-full block h-[95px] -top-[94px]"
               >
                 <polygon
                   points="-30,95 583,95 583,65"
@@ -266,32 +266,32 @@
             <img
               alt="..."
               src="{componentBtn}"
-              class="w-full align-middle rounded absolute shadow-lg max-w-100-px left-145-px -top-29-px z-3"
+              class="w-full align-middle rounded absolute shadow-lg max-w-[100px] left-[145px] -top-[29px] z-3"
             />
             <img
               alt="..."
               src="{componentProfileCard}"
-              class="w-full align-middle rounded-lg absolute shadow-lg max-w-210-px left-260-px -top-160-px"
+              class="w-full align-middle rounded-lg absolute shadow-lg max-w-[210px] left-[260px] -top-[160px]"
             />
             <img
               alt="..."
               src="{componentInfoCard}"
-              class="w-full align-middle rounded-lg absolute shadow-lg max-w-180-px left-40-px -top-225-px z-2"
+              class="w-full align-middle rounded-lg absolute shadow-lg max-w-[180px] left-[40px] -top-[225px] z-2"
             />
             <img
               alt="..."
               src="{componentInfo2}"
-              class="w-full align-middle rounded-lg absolute shadow-2xl max-w-200-px -left-50-px top-25-px"
+              class="w-full align-middle rounded-lg absolute shadow-2xl max-w-[200px] -left-[50px] top-[25px]"
             />
             <img
               alt="..."
               src="{componentMenu}"
-              class="w-full align-middle rounded absolute shadow-lg max-w-580-px -left-20-px top-210-px"
+              class="w-full align-middle rounded absolute shadow-lg max-w-[580px] -left-[20px] top-[210px]"
             />
             <img
               alt="..."
               src="{componentBtnPink}"
-              class="w-full align-middle rounded absolute shadow-xl max-w-120-px left-195-px top-95-px"
+              class="w-full align-middle rounded absolute shadow-xl max-w-[120px] left-[195px] top-[95px]"
             />
           </div>
         </div>
@@ -670,7 +670,7 @@
   
         <div class="w-full md:w-4/12 px-4 mr-auto ml-auto mt-32 relative">
           <i
-            class="fab fa-github text-blueGray-700 text-55 absolute -top-150-px -right-100 left-auto opacity-80"
+            class="fab fa-github text-blueGray-700 text-[55rem] absolute -top-[150px] -right-100 left-auto opacity-80"
           ></i>
         </div>
       </div>
