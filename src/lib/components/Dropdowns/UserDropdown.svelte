@@ -1,17 +1,17 @@
-<script>
+<script lang="ts">
   // library for creating dropdown menu appear on click
   import { createPopper } from "@popperjs/core";
 
   // core components
 
-  const image = "../assets/img/team-1-800x800.jpg";
+  const image = "/img/team-1-800x800.jpg";
 
   let dropdownPopoverShow = false;
 
   let btnDropdownRef;
   let popoverDropdownRef;
 
-  const toggleDropdown = (event) => {
+  const toggleDropdown = (event: Event) => {
     event.preventDefault();
     if (dropdownPopoverShow) {
       dropdownPopoverShow = false;
@@ -65,7 +65,7 @@
     >
       Something else here
     </a>
-    <div class="h-0 my-2 border border-solid border-blueGray-100" />
+    <div class="h-0 my-2 border border-solid border-blueGray-100" ></div>
     <a
       href="#pablo" on:click={(e) => e.preventDefault()}
       class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
