@@ -24,17 +24,4 @@
     --color-lightBlue-700: #1d4ed8;
     --color-lightBlue-800: #1e40af;
     --color-lightBlue-900: #1e3a8a;
-
-    --inset--94px: 94px;
 }
-
-@layer components {
-    .container {
-      width: 100%;
-      @screen sm { max-width: 640px; }
-      @screen md { max-width: 768px; }
-      @screen lg { max-width: 1024px; }
-      @screen xl { max-width: 1280px; }
-      @screen 2xl { max-width: 1280px; }
-    }
-  }

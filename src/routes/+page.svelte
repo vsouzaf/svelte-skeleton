@@ -1,7 +1,7 @@
 <script lang="ts">
     // core components
-    // import IndexNavbar from "components/Navbars/IndexNavbar.svelte";
-    // import Footer from "components/Footers/Footer.svelte";
+    import IndexNavbar from "$lib/components/Navbars/IndexNavbar.svelte";
+    import Footer from "$lib/components/Footers/Footer.svelte"; 
   
     const patternVue = "/img/pattern_svelte.png";
     const componentBtn = "/img/component-btn.png";
@@ -16,7 +16,7 @@
     const landing = "/img/landing.jpg";
   </script>
   
-  <!-- <IndexNavbar /> -->
+  <IndexNavbar />
   <section class="header relative pt-16 items-center flex h-screen max-h-860-px">
     <div class="container mx-auto items-center flex flex-wrap">
       <div class="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
@@ -738,5 +738,5 @@
       </div>
     </div>
   </section>
-  <!-- <Footer /> -->
+  <Footer />
   
